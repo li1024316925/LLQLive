@@ -19,7 +19,19 @@
 		2A1A2E181E8A39C90083DA1B /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2E161E8A39C90083DA1B /* PlayViewController.m */; };
 		2A1A2E191E8A39C90083DA1B /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E171E8A39C90083DA1B /* PlayViewController.xib */; };
 		2A1A2E1D1E8A39D90083DA1B /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2E1B1E8A39D90083DA1B /* LiveViewController.m */; };
-		2A1A2E1E1E8A39D90083DA1B /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E1C1E8A39D90083DA1B /* LiveViewController.xib */; };
+		2A1A2E251E8A3DCB0083DA1B /* LLQLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2E241E8A3DCB0083DA1B /* LLQLivePreview.m */; };
+		2A1A2E2B1E8A49C50083DA1B /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2E281E8A49C50083DA1B /* UIControl+YYAdd.m */; };
+		2A1A2E2C1E8A49C50083DA1B /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2E2A1E8A49C50083DA1B /* UIView+YYAdd.m */; };
+		2A1A2E371E8A4A530083DA1B /* camra_beauty_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E2F1E8A4A530083DA1B /* camra_beauty_close@2x.png */; };
+		2A1A2E381E8A4A530083DA1B /* camra_beauty_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E301E8A4A530083DA1B /* camra_beauty_close@3x.png */; };
+		2A1A2E391E8A4A530083DA1B /* camra_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E311E8A4A530083DA1B /* camra_beauty@2x.png */; };
+		2A1A2E3A1E8A4A530083DA1B /* camra_beauty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E321E8A4A530083DA1B /* camra_beauty@3x.png */; };
+		2A1A2E3B1E8A4A530083DA1B /* camra_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E331E8A4A530083DA1B /* camra_preview@2x.png */; };
+		2A1A2E3C1E8A4A530083DA1B /* camra_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E341E8A4A530083DA1B /* camra_preview@3x.png */; };
+		2A1A2E3D1E8A4A530083DA1B /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E351E8A4A530083DA1B /* close_preview@2x.png */; };
+		2A1A2E3E1E8A4A530083DA1B /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A2E361E8A4A530083DA1B /* close_preview@3x.png */; };
+		2A1A2E441E8A53520083DA1B /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2E431E8A53520083DA1B /* UIView+ViewController.m */; };
+		BC1AFCF95C087948E194881A /* libPods-LLQLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A359C66EAD86DFF77E7A409 /* libPods-LLQLive.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +75,27 @@
 		2A1A2E171E8A39C90083DA1B /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
 		2A1A2E1A1E8A39D90083DA1B /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
 		2A1A2E1B1E8A39D90083DA1B /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
-		2A1A2E1C1E8A39D90083DA1B /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		2A1A2E231E8A3DCB0083DA1B /* LLQLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLQLivePreview.h; path = LLQLive/LLQLivePreview.h; sourceTree = SOURCE_ROOT; };
+		2A1A2E241E8A3DCB0083DA1B /* LLQLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLQLivePreview.m; path = LLQLive/LLQLivePreview.m; sourceTree = SOURCE_ROOT; };
+		2A1A2E271E8A49C50083DA1B /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		2A1A2E281E8A49C50083DA1B /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		2A1A2E291E8A49C50083DA1B /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		2A1A2E2A1E8A49C50083DA1B /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		2A1A2E2F1E8A4A530083DA1B /* camra_beauty_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@2x.png"; sourceTree = "<group>"; };
+		2A1A2E301E8A4A530083DA1B /* camra_beauty_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@3x.png"; sourceTree = "<group>"; };
+		2A1A2E311E8A4A530083DA1B /* camra_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@2x.png"; sourceTree = "<group>"; };
+		2A1A2E321E8A4A530083DA1B /* camra_beauty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@3x.png"; sourceTree = "<group>"; };
+		2A1A2E331E8A4A530083DA1B /* camra_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@2x.png"; sourceTree = "<group>"; };
+		2A1A2E341E8A4A530083DA1B /* camra_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@3x.png"; sourceTree = "<group>"; };
+		2A1A2E351E8A4A530083DA1B /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		2A1A2E361E8A4A530083DA1B /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
+		2A1A2E421E8A53520083DA1B /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		2A1A2E431E8A53520083DA1B /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		2A1A2E451E8A62780083DA1B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2A1A2E461E8A62840083DA1B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3A359C66EAD86DFF77E7A409 /* libPods-LLQLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLQLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F78FB756011556B47986B8 /* Pods-LLQLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLQLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLQLive/Pods-LLQLive.debug.xcconfig"; sourceTree = "<group>"; };
+		F36DB7C13F230AB247FCE802 /* Pods-LLQLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLQLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLQLive/Pods-LLQLive.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1AFCF95C087948E194881A /* libPods-LLQLive.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +127,11 @@
 		2A1A2DC71E8A358E0083DA1B = {
 			isa = PBXGroup;
 			children = (
+				FEED244A76E666258D6A0CD0 /* Frameworks */,
 				2A1A2DD21E8A358E0083DA1B /* LLQLive */,
 				2A1A2DEC1E8A358E0083DA1B /* LLQLiveTests */,
 				2A1A2DF71E8A358E0083DA1B /* LLQLiveUITests */,
+				D7F1FB7C271C419029B4159E /* Pods */,
 				2A1A2DD11E8A358E0083DA1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,10 +150,11 @@
 			isa = PBXGroup;
 			children = (
 				2A1A2E101E8A395B0083DA1B /* Classes */,
+				2A1A2E201E8A3A080083DA1B /* Other */,
+				2A1A2E2E1E8A4A310083DA1B /* image */,
+				2A1A2DD31E8A358E0083DA1B /* Supporting Files */,
 				2A1A2DD61E8A358E0083DA1B /* AppDelegate.h */,
 				2A1A2DD71E8A358E0083DA1B /* AppDelegate.m */,
-				2A1A2E201E8A3A080083DA1B /* Other */,
-				2A1A2DD31E8A358E0083DA1B /* Supporting Files */,
 			);
 			path = LLQLive;
 			sourceTree = "<group>";
@@ -128,14 +164,14 @@
 			children = (
 				2A1A2DD41E8A358E0083DA1B /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2A1A2DEC1E8A358E0083DA1B /* LLQLiveTests */ = {
 			isa = PBXGroup;
 			children = (
-				2A1A2DED1E8A358E0083DA1B /* LLQLiveTests.m */,
 				2A1A2DEF1E8A358E0083DA1B /* Info.plist */,
+				2A1A2DED1E8A358E0083DA1B /* LLQLiveTests.m */,
 			);
 			path = LLQLiveTests;
 			sourceTree = "<group>";
@@ -143,8 +179,8 @@
 		2A1A2DF71E8A358E0083DA1B /* LLQLiveUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2A1A2DF81E8A358E0083DA1B /* LLQLiveUITests.m */,
 				2A1A2DFA1E8A358E0083DA1B /* Info.plist */,
+				2A1A2DF81E8A358E0083DA1B /* LLQLiveUITests.m */,
 			);
 			path = LLQLiveUITests;
 			sourceTree = "<group>";
@@ -155,7 +191,7 @@
 				2A1A2E0D1E8A38FF0083DA1B /* Controller */,
 				2A1A2E0E1E8A39090083DA1B /* View */,
 			);
-			name = Live;
+			path = Live;
 			sourceTree = "<group>";
 		};
 		2A1A2E0C1E8A38890083DA1B /* Play */ = {
@@ -163,7 +199,7 @@
 			children = (
 				2A1A2E1F1E8A39E70083DA1B /* Controller */,
 			);
-			name = Play;
+			path = Play;
 			sourceTree = "<group>";
 		};
 		2A1A2E0D1E8A38FF0083DA1B /* Controller */ = {
@@ -171,16 +207,17 @@
 			children = (
 				2A1A2E1A1E8A39D90083DA1B /* LiveViewController.h */,
 				2A1A2E1B1E8A39D90083DA1B /* LiveViewController.m */,
-				2A1A2E1C1E8A39D90083DA1B /* LiveViewController.xib */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		2A1A2E0E1E8A39090083DA1B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2A1A2E231E8A3DCB0083DA1B /* LLQLivePreview.h */,
+				2A1A2E241E8A3DCB0083DA1B /* LLQLivePreview.m */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		2A1A2E0F1E8A39460083DA1B /* Base */ = {
@@ -189,18 +226,19 @@
 				2A1A2E121E8A39A70083DA1B /* BaseViewController.h */,
 				2A1A2E131E8A39A70083DA1B /* BaseViewController.m */,
 			);
-			name = Base;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		2A1A2E101E8A395B0083DA1B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2A1A2E261E8A499D0083DA1B /* Common */,
 				2A1A2E0F1E8A39460083DA1B /* Base */,
 				2A1A2E211E8A3A400083DA1B /* Main */,
 				2A1A2E0B1E8A37FA0083DA1B /* Live */,
 				2A1A2E0C1E8A38890083DA1B /* Play */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		2A1A2E1F1E8A39E70083DA1B /* Controller */ = {
@@ -210,17 +248,19 @@
 				2A1A2E161E8A39C90083DA1B /* PlayViewController.m */,
 				2A1A2E171E8A39C90083DA1B /* PlayViewController.xib */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		2A1A2E201E8A3A080083DA1B /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				2A1A2DDF1E8A358E0083DA1B /* Assets.xcassets */,
-				2A1A2DE11E8A358E0083DA1B /* LaunchScreen.storyboard */,
 				2A1A2DE41E8A358E0083DA1B /* Info.plist */,
+				2A1A2DE11E8A358E0083DA1B /* LaunchScreen.storyboard */,
+				2A1A2E451E8A62780083DA1B /* PrefixHeader.pch */,
+				2A1A2E461E8A62840083DA1B /* Header.h */,
 			);
-			name = Other;
+			path = Other;
 			sourceTree = "<group>";
 		};
 		2A1A2E211E8A3A400083DA1B /* Main */ = {
@@ -228,7 +268,7 @@
 			children = (
 				2A1A2E221E8A3A480083DA1B /* Controller */,
 			);
-			name = Main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		2A1A2E221E8A3A480083DA1B /* Controller */ = {
@@ -238,7 +278,60 @@
 				2A1A2E071E8A361C0083DA1B /* MainViewController.m */,
 				2A1A2E081E8A361C0083DA1B /* MainViewController.xib */,
 			);
-			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A1A2E261E8A499D0083DA1B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A2E2D1E8A49CA0083DA1B /* category */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2A1A2E2D1E8A49CA0083DA1B /* category */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A2E271E8A49C50083DA1B /* UIControl+YYAdd.h */,
+				2A1A2E281E8A49C50083DA1B /* UIControl+YYAdd.m */,
+				2A1A2E291E8A49C50083DA1B /* UIView+YYAdd.h */,
+				2A1A2E2A1E8A49C50083DA1B /* UIView+YYAdd.m */,
+				2A1A2E421E8A53520083DA1B /* UIView+ViewController.h */,
+				2A1A2E431E8A53520083DA1B /* UIView+ViewController.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		2A1A2E2E1E8A4A310083DA1B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A2E2F1E8A4A530083DA1B /* camra_beauty_close@2x.png */,
+				2A1A2E301E8A4A530083DA1B /* camra_beauty_close@3x.png */,
+				2A1A2E311E8A4A530083DA1B /* camra_beauty@2x.png */,
+				2A1A2E321E8A4A530083DA1B /* camra_beauty@3x.png */,
+				2A1A2E331E8A4A530083DA1B /* camra_preview@2x.png */,
+				2A1A2E341E8A4A530083DA1B /* camra_preview@3x.png */,
+				2A1A2E351E8A4A530083DA1B /* close_preview@2x.png */,
+				2A1A2E361E8A4A530083DA1B /* close_preview@3x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		D7F1FB7C271C419029B4159E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55F78FB756011556B47986B8 /* Pods-LLQLive.debug.xcconfig */,
+				F36DB7C13F230AB247FCE802 /* Pods-LLQLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEED244A76E666258D6A0CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A359C66EAD86DFF77E7A409 /* libPods-LLQLive.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +341,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A1A2DFD1E8A358E0083DA1B /* Build configuration list for PBXNativeTarget "LLQLive" */;
 			buildPhases = (
+				D99D1031330FCD789C08ED51 /* [CP] Check Pods Manifest.lock */,
 				2A1A2DCC1E8A358E0083DA1B /* Sources */,
 				2A1A2DCD1E8A358E0083DA1B /* Frameworks */,
 				2A1A2DCE1E8A358E0083DA1B /* Resources */,
+				4D8E4DB7926BD4426DA6FFE7 /* [CP] Embed Pods Frameworks */,
+				1D4BBFD4D2D37466E4700FA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -350,10 +446,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1A2E3D1E8A4A530083DA1B /* close_preview@2x.png in Resources */,
+				2A1A2E3B1E8A4A530083DA1B /* camra_preview@2x.png in Resources */,
+				2A1A2E3C1E8A4A530083DA1B /* camra_preview@3x.png in Resources */,
+				2A1A2E371E8A4A530083DA1B /* camra_beauty_close@2x.png in Resources */,
 				2A1A2E191E8A39C90083DA1B /* PlayViewController.xib in Resources */,
 				2A1A2DE31E8A358E0083DA1B /* LaunchScreen.storyboard in Resources */,
+				2A1A2E3E1E8A4A530083DA1B /* close_preview@3x.png in Resources */,
 				2A1A2E0A1E8A361C0083DA1B /* MainViewController.xib in Resources */,
-				2A1A2E1E1E8A39D90083DA1B /* LiveViewController.xib in Resources */,
+				2A1A2E381E8A4A530083DA1B /* camra_beauty_close@3x.png in Resources */,
+				2A1A2E3A1E8A4A530083DA1B /* camra_beauty@3x.png in Resources */,
+				2A1A2E391E8A4A530083DA1B /* camra_beauty@2x.png in Resources */,
 				2A1A2DE01E8A358E0083DA1B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,14 +477,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D4BBFD4D2D37466E4700FA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLQLive/Pods-LLQLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8E4DB7926BD4426DA6FFE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLQLive/Pods-LLQLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99D1031330FCD789C08ED51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A1A2DCC1E8A358E0083DA1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2A1A2E1D1E8A39D90083DA1B /* LiveViewController.m in Sources */,
+				2A1A2E2B1E8A49C50083DA1B /* UIControl+YYAdd.m in Sources */,
 				2A1A2DD81E8A358E0083DA1B /* AppDelegate.m in Sources */,
+				2A1A2E441E8A53520083DA1B /* UIView+ViewController.m in Sources */,
+				2A1A2E251E8A3DCB0083DA1B /* LLQLivePreview.m in Sources */,
 				2A1A2E141E8A39A70083DA1B /* BaseViewController.m in Sources */,
+				2A1A2E2C1E8A49C50083DA1B /* UIView+YYAdd.m in Sources */,
 				2A1A2E091E8A361C0083DA1B /* MainViewController.m in Sources */,
 				2A1A2E181E8A39C90083DA1B /* PlayViewController.m in Sources */,
 				2A1A2DD51E8A358E0083DA1B /* main.m in Sources */,
@@ -426,6 +581,7 @@
 				2A1A2DE21E8A358E0083DA1B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -521,27 +677,33 @@
 		};
 		2A1A2DFE1E8A358E0083DA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F78FB756011556B47986B8 /* Pods-LLQLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GXJMB867PL;
-				INFOPLIST_FILE = LLQLive/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LLQLive/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = LLQLive/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LLQ.LLQLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2A1A2DFF1E8A358E0083DA1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36DB7C13F230AB247FCE802 /* Pods-LLQLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GXJMB867PL;
-				INFOPLIST_FILE = LLQLive/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LLQLive/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = LLQLive/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LLQ.LLQLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -614,6 +776,7 @@
 				2A1A2DFF1E8A358E0083DA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A1A2E001E8A358E0083DA1B /* Build configuration list for PBXNativeTarget "LLQLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +785,7 @@
 				2A1A2E021E8A358E0083DA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A1A2E031E8A358E0083DA1B /* Build configuration list for PBXNativeTarget "LLQLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +794,7 @@
 				2A1A2E051E8A358E0083DA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
